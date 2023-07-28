@@ -1,5 +1,11 @@
-import '@/styles/globals.css'
+import "@/styles/globals.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  const getLayout = Component.getLayout || ((page) => page);
+
+  return (
+    <div className="bg-background">
+      {getLayout(<Component {...pageProps} />)}
+    </div>
+  );
 }
