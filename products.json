@@ -1,0 +1,311 @@
+{
+  "products": [
+    {
+      "product_name": "Intel 13th Gen Core i5 13600K Raptor Lake Processor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/core-i5-13600k/Core%20i5%2013600K-01-228x228.webp",
+      "category": "processor",
+      "price": 36000,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "Core i5 13600K" },
+        { "Clock Speed": "3.50 GHz up to 5.10 GHz" },
+        { "Cache": "24 MB" },
+        { "Socket": "LGA1700" },
+        { "CPU Cores": "14" },
+        { "CPU Threads": "20" },
+        { "Graphics": "Intel UHD Graphics 770" }
+      ],
+      "description": "The Intel Core i5-13600K 3.5 GHz 14-Core LGA 1700 Processor will boost your productivity, gaming, and content production. This 13th-generation desktop CPU expands on the Hybrid Core design and Intel 7 process by packing 14 cores onto a single chip, four more than the prior generation, while still fitting the LGA 1700 socket. The Core i5-13600K is designed to deliver powerful performance for everyday workloads, with eight low-voltage Efficient-cores handling background tasks for multitasking and six 3.5 GHz Performance-cores powering programs and games. The built-in Intel Thread Director guarantees that the two function in unison by dynamically and intelligently distributing tasks to the appropriate core at the appropriate moment. With 24MB of cache and a Turbo Boost Max 2.0 clock of 5.1 GHz, this CPU is designed to handle a wide range of workloads. This CPU may also be overclocked for increased performance. PCI Express 5.0 and dual-channel DDR5 ECC memory at 5600 MHz are also supported by the Core i5-13600K. The Core i5-13600K has integrated Intel UHD 770 Graphics. It provides quick, rich 3D performance for high-quality images, with support for one 7680 x 4320 resolution 8K monitor or up to four 3840 x 2160 resolution 4K monitors with great dynamic range. The Intel 13th Gen Core i5 13600K Processor comes with a 03-year warranty."
+    },
+    {
+      "product_name": "Intel 11th Gen Core i7-11700 Rocket Lake Processor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i7-11700/i7-11700-500x500.jpg",
+      "category": "processor",
+      "price": 29500,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "Core i7-11700" },
+        { "Clockspeed": "2.50 GHz Up to 4.90 GHz" },
+        { "Cache": "16 MB" },
+        { "Socket": "LGA 1200" },
+        { "CPU Cores": "8" },
+        { "CPU Threads": "16" },
+        { "GPU name": "Intel UHD Graphics 750" }
+      ],
+      "description": "Intel 11th Gen Core i7-11700 Rocket Lake Processor. This Core i7-11700 Processor comes with Intel UHD Graphics 750. This new 11th gen Rocket Lake microarchitecture is manufactured with the 14nm process that comes with eight cores and 16 threads. These Processors also support 64-bit computing on Intel architecture requires an Intel x86-64 (64 bit) architecture-enabled BIOS. As this chip is updated to the latest BIOS revision, it nicely fits into any Intel 400 and 500 series motherboards. Focusing on this, all the major motherboard manufacturers have already started BIOS updates for their 400 and 500 series lineup. Core Benefits of the Processor. Intel 11th Generation Core i7-11700 Processor having a base frequency of 2.50 GHz that can be reached as max turbo frequency at 4.90 GHz. The processor has a compatibility socket of LGA 1200 that is supported by 400 and 500 series Intel motherboards. It has a SmartCache of 16 MB containing 8 cores and 16 threads. With a bus speed of 8 GT/s, it has thermal design power (TDP) rating of 65W. This latest microchip has few expansion options such as 4.0 PCI express revision having configured up to 1x16, 2x8, 1x8+2x4, and a maximum of 16 lanes. Considering the memory this processor has a dual-channel of max 128GB of the size that supports up to DDR4-3200 bus speed."
+    },
+    {
+      "product_name": "AMD Ryzen 7 5700X Processor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/amd-ryzen-7-5700x/amd-ryzen-7-5700x-01-500x500.jpg",
+      "category": "processor",
+      "price": 20500,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "Ryzen 7 5700X" },
+        { "Speed": "3.4GHz Up to 4.6GHz" },
+        { "L2 Cache": "4MB" },
+        { "L3 Cache": "32MB" },
+        { "Cores": "8" },
+        { "Threads": "16" },
+        { "Memory Support": "Up to 3200MHz DDR4" }
+      ],
+      "description": "AMD Ryzen 7 5700X Processor is another processor from the AMD Ryzen Family. It has  AMD StoreMI Technology; is a fast and easy way to expand and accelerate the storage in a desktop PC with an AMD Ryzen processor.AMD StoreMI technology is a powerful tool for PC enthusiasts that want to improve load times, boot times, file management, or system responsiveness. Whatever your storage acceleration needs, AMD StoreMI technology automatically pairs your most-used files with an SSD cache for peak performance. the Zen-3 architecture is a ground-up redesign of the legendary Zen family. Equipped with end-to-end design enhancements, Zen 3 embodies AMDs relentless focus on single-core performance, energy efficiency, and reduced latencies. It is at the core of the best gaming processors in the world. The Zen-3 architecture can extract an average of 19% additional performance from every MHz of frequency relative to the previous generation. The Zen-3 architecture transitions to a new unified complex design that brings 8 cores and 32MB of L3 cache into a single group of resources. This dramatically reduces core-to-core and core-to-cache latencies by making every element of the die a next-door neighbor with minimal communication time. Latency-sensitive tasks like PC gaming especially benefit from this change, as tasks now have direct access to twice as much L3 cache versus the older Zen 2. AMD Ryzen 7 5700X Processor offers a 3-year warranty(No Warranty for Fan or Cooler)."
+    },
+    {
+      "product_name": "Antec A400 RGB CPU Cooler",
+      "image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/antec/a400/a400-1-500x500.jpg",
+      "category": "Cooler",
+      "price": 3250,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "A400 RGB" },
+        { "Technical Design": "Direct-Touched Heat Pipes" },
+        { "Durability": "Durable, Colorful, and Exceptional" },
+        { "Fan Type": "4-PIN Connector PWM Silent Fan" },
+        { "Heat Pipes": "4 Pure Copper Heat Pipes" }
+      ],
+      "description": "Antec A400 RGB CPU Cooler is Durable, Colorful, and Exceptional Cooler. This CPU Cooler is built in 4-PIN Connector PWM Silent Fan, it Automatically controls the fan speed according to the temperature of CPU efficiently and decreases fan noise. In this CPU Cooler, It's Technical Design of Direct-Touched Heat Pipes attach the aluminum cold plate to the surface of a CPU directly, and it also can constantly reduce the heat by passing the thermal energy to every fin. It is also has 4 Pure Copper Heat Pipes and it's High thermal conductivity can take the heat out of the CPU quickly. This exclusive A400 RGB Antec CPU Cooler comes with 03 years of warranty."
+    },
+    {
+      "product_name": "CORSAIR H55 RGB 120mm All-in-One Liquid CPU Cooler",
+      "image": "https://www.startech.com.bd/image/cache/catalog/cpu-cooler/corsair/h55/h55-01-500x500.jpg",
+      "category": "Cooler",
+      "price": 5900,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "MPN": "CW-9060052-WW" },
+        { "Model": "H55" },
+        { "Fan": "CORSAIR SP120 RGB ELITE PWM fan" },
+        { "Cold Plate Material": "Copper" },
+        { "RGB Lighting": "Vibrant RGB lighting" },
+        { "Compatibility": "Compatible with Intel and AMD" }
+      ],
+      "description": "The CORSAIR H55 RGB 120mm All-in-One Liquid CPU Cooler delivers strong, dependable cooling and stunning lighting, with a CORSAIR SP120 RGB ELITE PWM fan, a 120mm radiator, and 21 bright RGB LEDs. SP120 RGB ELITE PWM fans can ramp up to 1,500 RPM, and channel concentrated airflow to where itâ€™s needed with AirGuide technology. Thanks to 120mm CORSAIR SP RGB ELITE PWM fans generating great airflow and vibrant RGB lighting, It illuminates your PC with dramatic color. It can be conveniently controlled through compatible motherboards with +5V ARGB support. It comes equipped with a thermally optimized copper cold plate and a low-noise pump design for quiet cooling. The CORSAIR H55 is compatible with both Intel and AMD. It includes a modular, tool-free mounting bracket for quick and easy installation on all modern CPU sockets, including LGA 1200,115X, 2066, and AM4. The CORSAIR H55 comes with 3 years of warranty."
+    },
+    {
+      "product_name": "Thermaltake Water 3.0 240 ARGB Sync Edition CPU Cooler",
+      "image": "https://www.startech.com.bd/image/cache/catalog/component/cpu-cooler/thermaltake/water-3-240/240-1-500x500.jpg",
+      "category": "Cooler",
+      "price": 12650,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "Thermaltake Water 3.0 240" },
+        { "Socket Compatibility": "Up to AM4 and LGA 2066 Supported" },
+        { "Cooling Performance": "Keeping Cool under Pressure" },
+        { "Easy Installation": "Hassle-Free Installation" },
+        { "Cooling Type": "Liquid Cooling System" }
+      ],
+      "description": "The Water 3.0 ARGB Sync CPU cooler, is an all-in-one cooling solution that is available in 120 mm, 240mm or 360mm variants. Able to provide an alternative cooling solution to standard air cooling, the Water 3.0 is a perfect fit for achieving higher performance in any system. It's also a fantastic choice for those who that canâ€™t get enough RGB lighting in their build; thanks to the included Pure ARGB 5-volt radiator fans, switching between different lighting effects and colour options has never looked this good. When it comes to optimizing PC performance, keeping your components cool should always be a priority. A CPU is the beating heart of any gaming system and is always going to require the best cooling hardware to help support it. By utilizing an all-in-one liquid cooler such as the Water 3.0, the truest potential of your CPU can be fully realized. Over-clocking is something that can only be achieved through a liquid cooling solution, allowing your system to achieve even higher performance targets. You can also rest easy knowing that when you use Water 3.0, it will help in eliminating any risks of damage to your hardware that can sometimes cause due to inefficient cooling applied from stock cooling methods. Implementing a new cooler is easier than you think. The Water 3.0 is both simple and straightforward when it comes to implementing it into your system. A lot of the work is already done for you, with thermal paste already pre-applied on the base of the water block to allow for stress-free placement. When it comes to a simple and efficient water cooling solution, Water 3.0 is by far the easiest and most user-friendly. No maintenance is required or coolant to periodically top up, unlike traditional cooling setups. Once you've integrated Water 3.0 into your system, you can set it and forget it. With over 16.8 million colours to choose from, the only limitation is your imagination. Through either software or hardware controls, you can switch between different lighting modes for some truly dazzling effects, to help draw even more attention to your system. As an added benefit, any compatible motherboard software can be synced with the included ARGB fans, allowing for consistent colours across all of your components. If you prefer, you can also use the included fan controller for easy manual adjustments and tweaks. (Only supports motherboard with 5V header). It has a 01-year warranty."
+    },
+    {
+      "product_name": "ASRock H81M-VG4 R4.0 4th Gen Micro ATX Motherboard",
+      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/asrock/h81m-vg4-r4-0/h81m-vg4-r4-0-01-500x500.jpg",
+      "category": "Motherboard",
+      "price": 8000,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "H81M-VG4 R4.0" },
+        {
+          "Processor Support": "Supports 4th Generation Intel Core Processors (Socket 1150)"
+        },
+        { "Memory Support": "Supports Dual Channel DDR3 1600" },
+        { "Expansion Slots": "1 PCIe 2.0 x16, 1 PCIe 2.0 x1" },
+        { "Graphic Output": "D-Sub" }
+      ],
+      "description": "The ASRock H81M-VG4 R4.0 4th Gen Micro ATX Motherboard supports Intel 4th Generation Intel Core Processors (Socket 1150) and Dual Channel DDR3 1600. The Motherboard comes with 1 PCIe 2.0 x16, 1 PCIe 2.0 x1. It features a D-Sub port for graphic output. It is built with a High-Density Glass Fabric PCB design that reduces the gaps between the PCB layers to protect the motherboard against electrical shorts caused by humidity. This ASRock motherboard uses a Realtek gigabit LAN chip to support extremely fast internet connections. The ASRock H81M-VG4 R4.0 features a solid capacitor design. The motherboard offers full spike protection. It includes various technologies to prevent your motherboard’s components from being damaged by these unexpected voltage spikes. It also comes with ASRock Live Update & APP Shop. The ASRock H81M-VG4 R4.0 comes with 3 years of warranty."
+    },
+    {
+      "product_name": "GIGABYTE GA-J1800M-D3P Motherboard with Built In 2.41Ghz DDR3 Celeron Processor",
+      "image": "https://www.startech.com.bd/image/cache/catalog/Motherboard/Gigabyte/GIGABYTE%20GA-J1800M-D3P/GIGABYTE%20GA-J1800M-D3P-1-500x500.jpg",
+      "category": "Motherboard",
+      "price": 6500,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "GIGABYTE GA-J1800M-D3P" },
+        { "Processor": "Intel Dual-Core Celeron J1800 SoC (2.41 GHz)" },
+        { "Memory Support": "2 x DDR3 DIMM Dual Memory" },
+        { "Expansion Slots": "1 x PCI Express x16 slot, running at x1" },
+        { "TPM Header": "1 x Trusted Platform Module (TPM) header" }
+      ],
+      "description": "The GIGABYTE GA-J1800M-D3P is a feature-rich motherboard that comes with a built-in Intel Dual-Core Celeron J1800 processor running at 2.41 GHz. This integrated CPU provides reliable and efficient performance for everyday computing tasks and light multitasking needs. Designed with versatility in mind, the motherboard supports up to 2 x DDR3 DIMM Dual Memory slots, allowing for easy memory expansion and offering a responsive system performance. The dual-channel memory configuration ensures smooth and stable operations, making it ideal for handling various applications and programs simultaneously. For expansion capabilities, the GA-J1800M-D3P offers a single PCI Express x16 slot, running at x1, which allows you to add additional peripherals and components to enhance your system's capabilities. Additionally, the motherboard is equipped with a Trusted Platform Module (TPM) header, enhancing system security with hardware-based encryption and ensuring the protection of sensitive data and information.Whether you're building a budget-friendly home or office system, the GIGABYTE GA-J1800M-D3P provides a reliable and efficient foundation for your computing needs. With its built-in Celeron processor, versatile memory support, and expansion options, this motherboard delivers a cost-effective solution without compromising on performance and functionality. It is an excellent choice for users seeking a reliable and capable platform for their everyday computing requirements."
+    },
+    {
+      "product_name": "MSI A520M-A Pro AM4 AMD Micro-ATX Motherboard",
+      "image": "https://www.startech.com.bd/image/cache/catalog/motherboard/msi/a520m-a-pro/a520m-a-pro-500x500.jpg",
+      "category": "Motherboard",
+      "price": 8500,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "GIGABYTE GA-J1800M-D3P" },
+        { "Processor": "Intel Dual-Core Celeron J1800 SoC (2.41 GHz)" },
+        { "Memory Support": "2 x DDR3 DIMM Dual Memory" },
+        { "Expansion Slots": "1 x PCI Express x16 slot, running at x1" },
+        { "TPM Header": "1 x Trusted Platform Module (TPM) header" }
+      ],
+      "description": "PRO series helps users work smarter by delivering an efficient and productive experience. Featuring stable functionality and high-quality assembly, PRO series motherboards provide not only optimized professional workflows but also less troubleshooting and longevity. MSI motherboards let you manage speeds and temperatures for all your system and CPU fans. Total Fan Control allows you to check your primary system characteristics in a simplified graphical interface. You can also set up to 4 temperature targets for CPU and motherboard, which will adjust the fan speeds automatically. MSI PRO Series motherboards support all the latest storage standards, which allows users to connect any ultra-fast storage device. Higher efficiency makes your work easier. An enhanced PCB design with 2oz thickened copper increases conductivity, improving heat dissipation and performance reliability especially during overclocking. MSI OC LAB does not merely work hard on extreme overclocking. Compared to the A320 motherboard memory A-XMP profile, MSI does have great improvement in performance and efficiency for A520 motherboards. Easy to enable A-XMP profile with auto power settings to get the best memory speed and stability. Core Boost technology combines MSI's premium layout and optimized power design which allows for faster and undistorted current delivery to the CPU at pin-point precision. Not only supporting multi-core CPU but also creating the perfect conditions for your CPU overclocking."
+    },
+    {
+      "product_name": "Adata XPG LANCER 16GB DDR5 6000MHz Gaming Desktop RAM",
+      "image": "https://www.startech.com.bd/image/cache/catalog/ram/adata/xpg-lancer/xpg-lancer-01-500x500.jpg",
+      "category": "RAM",
+      "price": 7700,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "XPG LANCER DDR5" },
+        {
+          "Overclocking Stability": "High-quality materials for stable overclocking"
+        },
+        {
+          "Intel XMP 3.0 Support": "Supports Intel XMP 3.0 for easy overclocking"
+        },
+        { "Power Supply Stability": "PMIC for power supply stability" },
+        { "Error Correction": "On-die ECC error correction" }
+      ],
+      "description": "The Adata XPG LANCER 16GB Gaming RAM heralds the start of the DDR5 era in gaming memory. It has a frequency range of up to 6000 MT/s. This gaming RAM has an integrated Power Management IC (PMIC) that improves power supply stability. LANCER is also more power-efficient than DDR4 because of its lower operating voltage. The XPG LANCER has an on-die error-correcting code (ECC), which may repair mistakes in real-time to improve stability and dependability. It was built with high-quality ICs and PCBs to assure uncompromised performance and stable overclocking, making it suitable for discriminating gamers and overclockers. It supports Intel XMP 3.0, allowing for easy overclocking without the need to fiddle with BIOS settings. There is no need to adjust and fine-tune overclocking parameters regularly. The Adata XPG LANCER RAM is covered by a Lifetime Warranty."
+    },
+    {
+      "product_name": "GIGABYTE AORUS 16GB DDR5 5200MHz Desktop RAM",
+      "image": "https://www.startech.com.bd/image/cache/catalog/ram/gigabyte/aorus-ddr5/aorus-ddr5-01-500x500.jpg",
+      "category": "RAM",
+      "price": 14000,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "MPN": "GP-ARS32G52D5" },
+        { "Model": "AORUS Memory DDR5" },
+        { "Size": "16GB" },
+        { "Frequency": "DDR5-5200 MHz" },
+        { "Timing": "40-40-40-80 (XMP 5200MHz)" },
+        { "XMP Support": "Performance Profile: XMP 3.0" },
+        { "Certification": "Intel Z690 certified" }
+      ],
+      "description": "The AORUS DDR5 memory delivers reliably fast DDR5-5200 memory speed, also bringing the new experience of the latest XMP 3.0. Moreover, by utilizing a Copper-aluminum composite with a NanoCarbon heat spreader, there is no compromise when overclocking. Offering higher performance, better bandwidth, and lower power consumption than DDR4 modules. AORUS DDR5 memory is a new evolution for all PC enthusiasts and extreme gamers. The DDR5 memory module features a new function, on-die ECC which allows to self-correct DRAM cells. On-die EEC brings reliability and makes your PC stable than before. The latest DDR5 modules are with built-in Power Management integrated circuit (PMIC). It unlocks DDR5 voltage control, improving the overclocking performance and capability. The GIGABYTE AORUS 16GB RAM comes with a lifetime warranty."
+    },
+    {
+      "product_name": "PNY XLR8 Gaming EPIC-X RGB 8GB DDR4 3200MHz Desktop RAM",
+      "image": "https://www.startech.com.bd/image/cache/catalog/ram/pny/xlr8-gaming-epic-x/xlr8-gaming-epic-x-01-500x500.jpg",
+      "category": "RAM",
+      "price": 3100,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "PNY XLR8 Gaming EPIC-X RGB" },
+        { "Overclocking Capabilities": "Extreme Overclocking Capabilities" },
+        { "XMP Support": "XMP 2.0 support" },
+        { "CAS Latency": "CL16" },
+        { "Voltage": "1.35V" }
+      ],
+      "description": "PNY XLR8 Gaming EPIC-X RGB Desktop RAM comes with 8GB DDR4 3200MHz capacity. This RAM offers a brilliant RGB design combined with extreme overclocked performance, taking your PC to the extreme. The PNYâ€™s premium XLR8 modules combine top-tier components and select ICs for aggressive speed, low latency, bullet-proof reliability, and the extreme overclocking capabilities that serious gamers demand. This new RGB gaming RAM features with aggressive speeds, highest bandwidth, lowest latency and power consumption, and most advanced thermal performance for maximum PC stability and responsiveness during memory-intensive gaming and application use. And also it's modules are rigorously engineered and tested to ensure peak performance in even the most challenging gaming environments. This new gaming RAM is supports XMP 2.0 whuch is Super easy for overlocking and runs at top speed. Overclocking is made easier with Intel XMP compatibility. Customize your PCâ€™s color and lighting effects, without the need for additional cables or connectors using the supported Asus Aura Sync, Gigabyte RGB Fusion, MSI Mystic Light Sync and ASRock Polychrome Sync software. This new gaming RAM comes with lifetime warranty."
+    },
+    {
+      "product_name": "Samsung 980 500GB PCIe 3.0 M.2 NVMe SSD",
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/samsung/980-500gb/980-500gb-500x500.jpg",
+      "category": "Storage",
+      "price": 4199,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "PNY XLR8 Gaming EPIC-X RGB" },
+        { "Overclocking Capabilities": "Extreme Overclocking Capabilities" },
+        { "XMP Support": "XMP 2.0 support" },
+        { "CAS Latency": "CL16" },
+        { "Voltage": "1.35V" }
+      ],
+      "description": "It's time to maximize your PC's potential with the 980. Whether you need a boost for gaming or a seamless workflow for heavy graphics, the 980 is the smart choice for outstanding SSD performance, and it's all backed by an NVMe interface and PCIe 3.0 technology. Get right to it. The 980 harnesses nearly all the speed advantages of PCIe 3.0 through HMB technology and dramatic NVMe efficiency. The DRAM-less design delivers exceptional value, achieving breakneck sequential read/write speeds up to 3,100/ 2,600 MB/s, over 6.2x the speed of SATA SSDs. Keep your SSD running at peak level for nonstop, consistent high performance with Full Power Mode. Switch it on through Samsung Magician software to always keep your SSD in active mode. Instantly jump right back to intensive work with huge files, graphics-heavy games, or even normal PC usage. Keep your files safe with an SSD that's in it for the long haul. With up to 600 TBW and a 3-year limited warranty, the 980's optimized endurance comes with proven reliability thanks to Samsung's in-house solutions, from the state-of-the-art controller to V-NAND and the latest firmware. High-performance SSDs usually require high-performance thermal control. To ensure stable performance, the 980 uses nickel coating to help manage the controller's heat level and a heat spreader label to deliver effective thermal control of the NAND chip. Embedded with Samsung's cutting-edge thermal control algorithm, the 980 manages heat on its own to deliver durable and reliable performance. To minimize performance fluctuations in the long haul, Samsung's Dynamic Thermal Guard technology maintains the 980â€™s temperature at optimal levels. Unlock the full power of the 980 with Samsung Magician's intuitive yet advanced optimization tools. Monitor drive health, optimize performance, protect valuable data, and receive important updates with Magician to ensure you're always getting the best performance out of your SSD. Experience superior performance and reliability that you can only get from the world's number one brand for flash memory since 2003. All firmware and components, including Samsung's world-renowned DRAM and NAND, are produced in-house, allowing end-to-end integration for quality you can trust."
+    },
+    {
+      "product_name": "Western Digital Blue SA510 250GB 2.5-Inch SATAIII SSD",
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/western-digital/sa510/sa510-01-500x500.webp",
+      "category": "Storage",
+      "price": 3500,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "MPN": "WDS250G3B0A" },
+        { "Model": "SA510" },
+        { "Capacity": "250GB" },
+        { "Interface": "SATA III, 6.0 GB/s" },
+        { "Form Factor": "2.5 inch" },
+        { "Read Speed": "555 MB/s" },
+        { "Write Speed": "440 MB/s" }
+      ],
+      "description": "The Western Digital Blue SA510 250GB 2.5-Inch SATAIII SSD gives fresh vitality to your Computer, allowing you to push the limits of your work. The WD Blue SA510 SATA SSD is designed exclusively for professionals, creatives, freelancers, social influencers, and other passionate content producers and editors. It helps enhance your PC's performance so you can be more productive. The drive comes with Acronis True Image for Western Digital backup and cyber security software, as well as a complimentary three-month Dropbox Professional trial. This fast, dependable SSD helps you boot up faster, reduce lag times, and speed up editing and file transfers for a long-term desktop improvement that doesn't require an expensive new PC purchase."
+    },
+    {
+      "product_name": "PNY CS2140 1TB Gen4 M.2 Nvme SSD",
+      "image": "https://www.startech.com.bd/image/cache/catalog/ssd/pny/cs2140/cs2140-010-500x500.jpg",
+      "category": "Storage",
+      "price": 13900,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "CS2140" },
+        { "Read Speed": "up to 3,600 MB/s" },
+        { "Write Speed": "up to 3,200 MB/s" },
+        { "Interface": "PCIe Gen4 x4" },
+        { "Memory Technology": "3D Flash Memory" }
+      ],
+      "description": "The PNY SSD featured with 1TB capacity, Sequential Read of up to 3,600 MB/s and Write of up to 3,200 MB/s, Faster boot up, quicker application launch, and improved overall system performance, Reliable storage. It comes with Low power consumption, cool and quiet operation. This PNY SSD featured with Form Factor M.2, Interface PCIe Gen4 x4, Max Sequential Read Speed 3,600 MB/s, Max Sequential Write Speed 3,200 MB/s, NAND Type 3D Flash Memory. You can do more work in less time with NVMe Gen4 x4; boot up, power down, and load applications up to 6 times faster compared to SATA based SSDâ€™s. Designed to deliver the performance you demand, and with no moving parts, the PNY CS2140 is highly durable, less likely to fail, and supports a 5-year limited warranty or TBW. The latest PNY CS2140 SSD comes with 03 years Warranty."
+    },
+    {
+      "product_name": "NVIDIA Quadro P1000 4GB GDDR5 Graphics Card (No Box)",
+      "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/nvidia/quadro-p1000/quadro-p1000-02-500x500.webp",
+      "category": "Graphics Card (GPU)",
+      "price": 15000,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "CS2140" },
+        { "Read Speed": "up to 3,600 MB/s" },
+        { "Write Speed": "up to 3,200 MB/s" },
+        { "Interface": "PCIe Gen4 x4" },
+        { "Memory Technology": "3D Flash Memory" }
+      ],
+      "description": "The NVIDIA Quadro P1000 4GB GDDR5 Graphics Card combines a 640 CUDA core Pascal GPU, 4 GB GDDR5 on-board memory, and advanced display technologies in a low-profile form factor that delivers amazing graphics performance for demanding professional applications. The NVIDIA Quadro P1000 supports four 4K displays (4096x2160 @ 60Hz) with HDR color giving you an expansive visual workspace to see your ideas come to life in stunning detail. Using supported APIs and CUDA, that computing performance can translate into high resolution and realistic real-time 2D and 3D graphics rendering or improved computing speed with hardware acceleration. The NVIDIA Quadro P1000 is certified with a broad range of sophisticated professional applications, tested by leading workstation manufacturers, and backed by a global team of support specialists. This gives you the peace of mind to focus on doing your best work. Whether you’re developing revolutionary products or telling spectacularly vivid visual stories, Quadro gives you the performance to do it brilliantly. The NVIDIA Quadro P1000 4GB GDDR5 Graphics Card comes with a 1-year warranty."
+    },
+    {
+      "product_name": "MSI Radeon RX 7600 MECH 2X CLASSIC 8GB OC GDDR6 Graphics Card",
+      "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/msi/radeon-rx-7600-mech-2x-classic-8g-oc/radeon-rx-7600-mech-2x-classic-8g-oc-01-500x500.webp",
+      "category": "Graphics Card (GPU)",
+      "price": 35500,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "Model": "Radeon RX 7600 MECH 2X CLASSIC 8G OC" },
+        { "Boost Clock": "Up to 2695 MHz" },
+        { "Game Clock": "Up to 2280 MHz" },
+        { "Memory Speed": "18 Gbps" },
+        { "Outputs": "DisplayPort x 3 (v1.4) / HDMI x 1" }
+      ],
+      "description": "The MSI Radeon RX 7600 MECH 2X CLASSIC 8GB OC GDDR6 Graphics Card is a high-performance graphics card designed to handle various tasks efficiently. It features a dual fan setup that ensures optimal cooling while maintaining a visually appealing design. With its robust industrial build, this graphics card can seamlessly blend into any computer build. This graphics card is its impressive clock speeds. The boost clock can reach up to 2695 MHz, allowing for enhanced performance during demanding tasks. The game clock, which represents the average clock speed during gameplay, can reach up to 2280 MHz, ensuring smooth and fluid gaming experiences. The RX 7600 MECH 2X CLASSIC comes equipped with 8GB of OC GDDR6 memory. With a memory speed of 18 Gbps, it can handle data-intensive operations effectively, including gaming, video editing, and other graphics-intensive tasks. The graphics card offers three DisplayPort 1.4 outputs and one HDMI output. These ports enable users to connect multiple displays simultaneously, providing flexibility and convenience for multi-monitor setups or connecting to high-resolution displays. The MSI Radeon RX 7600 MECH 2X CLASSIC 8GB OC GDDR6 Graphics Card combines performance, cooling efficiency, and a sleek design, making it a suitable choice for gamers, content creators, and users looking for a reliable and powerful graphics solution."
+    },
+    {
+      "product_name": "GIGABYTE GeForce GTX 1650 D6 OC Low Profile 4GB GDDR6 Graphics Card",
+      "image": "https://www.startech.com.bd/image/cache/catalog/graphics-card/gigabyte/gtx-1650-d6-oc-low-profile-4gb/gtx-1650-d6-oc-low-profile-4gb-01-500x500.webp",
+      "category": "Graphics Card (GPU)",
+      "price": 20500,
+      "status": "In Stock",
+      "rating": 4.9,
+      "keyFeatures": [
+        { "MPN": "GV-N1656OC-4GL" },
+        { "Model": "GeForce GTX 1650 D6 OC Low Profile 4GB" },
+        { "Core Clock": "1620 MHz (Reference Card: 1590 MHz)" },
+        { "Memory Type": "GDDR6" },
+        { "Memory Bus": "128-bit" },
+        { "PCB Form": "Low Profile" },
+        { "Output": "DisplayPort x1, HDMI x2, Dual-link DVI-D x1" }
+      ],
+      "description": "The GIGABYTE GeForce GTX 1650 D6 OC Low Profile 4GB Graphics Card is designed to provide the best PC gaming experience possible. The new NVIDIA Turing architecture and the groundbreaking GTX platform power this beauty. This GPU is small but mighty, with 4GB of GDDR6 128bit memory and clock speeds of 1620 MHz, allowing you to save space or even use a lower form factor case to game on a smaller system. Gigabyte has also included its custom-designed cooling system, which provides improved heat dissipation and allows for higher performance at lower temperatures. It has one Dual-link DVI-D, one DP, and two HDMI connections and can accommodate up to four monitors. With a length of 167mm, this GPU will save you a lot of room within your system and potentially let you downsize to a smaller form factor. The Turing Architecture powers the GEFORCE GTX 1650 GPUs, providing 6x faster performance than previous-generation graphics cards. Turing employs a new 12nm manufacturing process and outperforms the previous generation's GPU architecture in terms of performance and efficiency. The GIGABYTE GeForce GTX 1650 D6 OC Low Profile 4GB Graphics Card comes with a 03-year warranty."
+    }
+  ]
+}

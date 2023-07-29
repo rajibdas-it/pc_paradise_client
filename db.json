@@ -1,0 +1,331 @@
+{
+  "products": [
+    {
+      "product_name": "AMD Ryzen 7 5800X",
+      "category": "CPU",
+      "price": 399.99,
+      "status": "In Stock",
+      "rating": 4.9,
+      "description": "The AMD Ryzen 7 5800X is a high-performance 8-core, 16-thread processor designed for gaming and multitasking. With a base clock of 3.8GHz and a boost clock of up to 4.7GHz, it delivers excellent performance for demanding tasks."
+    },
+    {
+      "product_name": "Intel Core i9-11900K",
+      "category": "CPU",
+      "price": 499.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The Intel Core i9-11900K is a powerful 8-core, 16-thread processor from Intel's 11th Gen Rocket Lake series. With a base clock of 3.5GHz and a boost clock of up to 5.3GHz, it offers impressive single-core and multi-core performance."
+    },
+    {
+      "product_name": "AMD Ryzen 9 5900X",
+      "category": "CPU",
+      "price": 549.99,
+      "status": "In Stock",
+      "rating": 4.9,
+      "description": "The AMD Ryzen 9 5900X is a top-of-the-line 12-core, 24-thread processor, ideal for content creation and gaming. With a base clock of 3.7GHz and a boost clock of up to 4.8GHz, it delivers incredible multi-threaded performance."
+    },
+    {
+      "product_name": "ASUS ROG Strix X570-E Gaming",
+      "category": "Motherboard",
+      "price": 299.99,
+      "status": "In Stock",
+      "rating": 4.7,
+      "description": "The ASUS ROG Strix X570-E Gaming is a feature-packed ATX motherboard designed for high-end gaming and overclocking. It supports AMD Ryzen processors and comes with PCIe 4.0 support for faster data transfer."
+    },
+    {
+      "product_name": "MSI MPG B550 Gaming Edge WiFi",
+      "category": "Motherboard",
+      "price": 189.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "The MSI MPG B550 Gaming Edge WiFi is a gaming-oriented motherboard with support for AMD Ryzen processors. It features built-in Wi-Fi, PCIe 4.0 slots, and an optimized cooling system for stable performance."
+    },
+    {
+      "product_name": "GIGABYTE B450 AORUS PRO WiFi",
+      "category": "Motherboard",
+      "price": 129.99,
+      "status": "In Stock",
+      "rating": 4.5,
+      "description": "The GIGABYTE B450 AORUS PRO WiFi is a reliable and affordable motherboard with support for AMD Ryzen processors. It comes with built-in Wi-Fi, dual M.2 slots, and RGB lighting for a stylish look."
+    },
+    {
+      "product_name": "Corsair Vengeance LPX 16GB DDR4",
+      "category": "RAM",
+      "price": 89.99,
+      "status": "In Stock",
+      "rating": 4.9,
+      "description": "The Corsair Vengeance LPX is a high-performance DDR4 RAM kit designed for smooth multitasking and gaming. With a capacity of 16GB and a speed of 3200MHz, it ensures quick and reliable performance."
+    },
+    {
+      "product_name": "G.Skill Ripjaws V Series 32GB DDR4",
+      "category": "RAM",
+      "price": 169.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The G.Skill Ripjaws V Series is a high-capacity DDR4 RAM kit suitable for content creation and heavy multitasking. With a capacity of 32GB and a speed of 3600MHz, it provides excellent performance for demanding tasks."
+    },
+    {
+      "product_name": "Crucial Ballistix 8GB DDR4",
+      "category": "RAM",
+      "price": 59.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "The Crucial Ballistix is a budget-friendly DDR4 RAM kit perfect for entry-level systems and casual use. With a capacity of 8GB and a speed of 2666MHz, it offers reliable performance for everyday tasks."
+    },
+    {
+      "product_name": "Western Digital WD Blue 500GB SSD",
+      "category": "Storage",
+      "price": 69.99,
+      "status": "In Stock",
+      "rating": 4.7,
+      "description": "The Western Digital WD Blue is a reliable and fast SSD suitable for the operating system and essential applications. With a capacity of 500GB and fast read/write speeds, it ensures a smooth computing experience."
+    },
+    {
+      "product_name": "Samsung 980 PRO 1TB NVMe SSD",
+      "category": "Storage",
+      "price": 199.99,
+      "status": "In Stock",
+      "rating": 4.9,
+      "description": "The Samsung 980 PRO is a high-performance NVMe SSD that delivers blazing-fast read/write speeds. With a capacity of 1TB, it offers ample storage for large files and games."
+    },
+    {
+      "product_name": "Seagate BarraCuda 2TB HDD",
+      "category": "Storage",
+      "price": 69.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "The Seagate BarraCuda is a reliable and spacious HDD for mass storage needs. With a capacity of 2TB, it's perfect for storing large media files, games, and backups."
+    },
+    {
+      "product_name": "NVIDIA GeForce RTX 3070",
+      "category": "Graphics Card (GPU)",
+      "price": 699.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The NVIDIA GeForce RTX 3070 is a powerful graphics card that offers excellent performance for gaming and content creation. With 8GB of GDDR6 memory and real-time ray tracing support, it delivers stunning visuals."
+    },
+    {
+      "product_name": "AMD Radeon RX 6800 XT",
+      "category": "Graphics Card (GPU)",
+      "price": 799.99,
+      "status": "In Stock",
+      "rating": 4.9,
+      "description": "The AMD Radeon RX 6800 XT is a high-end graphics card that excels in both gaming and productivity tasks. With 16GB of GDDR6 memory and AMD's RDNA 2 architecture, it delivers exceptional performance."
+    },
+    {
+      "product_name": "NVIDIA GeForce GTX 1660 Super",
+      "category": "Graphics Card (GPU)",
+      "price": 299.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "The NVIDIA GeForce GTX 1660 Super is a budget-friendly graphics card that offers smooth gaming performance at 1080p resolution. With 6GB of GDDR6 memory, it's a great choice for gamers on a budget."
+    },
+    {
+      "product_name": "Corsair RM750x 750W Gold PSU",
+      "category": "Power Supply",
+      "price": 129.99,
+      "status": "In Stock",
+      "rating": 4.7,
+      "description": "The Corsair RM750x is a high-quality power supply with a Gold efficiency rating. With a power output of 750W, it provides stable and reliable power delivery for gaming and overclocking."
+    },
+    {
+      "product_name": "EVGA Supernova 850W G3 PSU",
+      "category": "Power Supply",
+      "price": 139.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The EVGA Supernova 850W G3 is a modular power supply designed for enthusiasts and power-hungry systems. With an 80 Plus Gold efficiency rating and 850W power output, it's suitable for high-end builds."
+    },
+    {
+      "product_name": "Seasonic Focus GX-650W Gold PSU",
+      "category": "Power Supply",
+      "price": 109.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "The Seasonic Focus GX-650W is a compact and efficient power supply with a Gold efficiency rating. With a power output of 650W, it's suitable for mid-range gaming and productivity builds."
+    },
+    {
+      "product_name": "NZXT H510 Compact ATX Mid-Tower Case",
+      "category": "Casing",
+      "price": 79.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "The NZXT H510 is a sleek and minimalist mid-tower case that offers great cable management and airflow. With a compact design, it's perfect for smaller gaming or workstation setups."
+    },
+    {
+      "product_name": "Corsair 4000D Airflow Mid-Tower Case",
+      "category": "Casing",
+      "price": 89.99,
+      "status": "In Stock",
+      "rating": 4.7,
+      "description": "The Corsair 4000D Airflow is a mid-tower case with optimized airflow for better cooling performance. It features a clean design and plenty of space for high-end components and water cooling."
+    },
+    {
+      "product_name": "Phanteks Eclipse P400A Digital Case",
+      "category": "Casing",
+      "price": 109.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The Phanteks Eclipse P400A Digital is a stylish and airflow-focused case with integrated digital RGB lighting. With a tempered glass side panel, it showcases your build while keeping it cool."
+    },
+    {
+      "product_name": "NZXT Kraken X63 AIO Liquid Cooler",
+      "category": "Cooler",
+      "price": 149.99,
+      "status": "In Stock",
+      "rating": 4.9,
+      "description": "The NZXT Kraken X63 is a high-performance all-in-one liquid cooler for CPUs. With a 280mm radiator and RGB lighting, it not only keeps your processor cool but also adds a touch of style to your build."
+    },
+    {
+      "product_name": "Corsair iCUE H150i ELITE CAPELLIX Liquid Cooler",
+      "category": "Cooler",
+      "price": 179.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The Corsair iCUE H150i ELITE CAPELLIX is a premium AIO liquid cooler featuring three 120mm fans and powerful RGB lighting. With exceptional cooling performance, it's perfect for high-end systems."
+    },
+    {
+      "product_name": "Noctua NH-D15 Chromax.Black Dual-Tower Air Cooler",
+      "category": "Cooler",
+      "price": 99.99,
+      "status": "In Stock",
+      "rating": 4.7,
+      "description": "The Noctua NH-D15 Chromax.Black is a high-end air cooler known for its excellent thermal performance and quiet operation. With dual-tower heatsinks and two fans, it's perfect for overclocking."
+    },
+    {
+      "product_name": "LG 27GL850-B 27'' QHD Gaming Monitor",
+      "category": "Monitor",
+      "price": 399.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The LG 27GL850-B is a 27-inch QHD gaming monitor with an ultra-fast 1ms response time and a 144Hz refresh rate. With an IPS panel, it delivers vibrant colors and wide viewing angles for an immersive gaming experience."
+    },
+    {
+      "product_name": "ASUS TUF Gaming VG27AQ 27'' WQHD Monitor",
+      "category": "Monitor",
+      "price": 399.99,
+      "status": "In Stock",
+      "rating": 4.7,
+      "description": "The ASUS TUF Gaming VG27AQ is a 27-inch WQHD monitor with a 165Hz refresh rate and adaptive sync technology for tear-free gaming. With an IPS panel and HDR support, it delivers stunning visuals."
+    },
+    {
+      "product_name": "Acer R240HY 23.8'' Full HD Monitor",
+      "category": "Monitor",
+      "price": 129.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "The Acer R240HY is a budget-friendly 23.8-inch Full HD monitor with an IPS panel for wide viewing angles. With a slim design and thin bezels, it's a great choice for everyday use and productivity tasks."
+    },
+    {
+      "product_name": "Corsair K95 RGB Platinum XT Mechanical Gaming Keyboard",
+      "category": "Keyboard",
+      "price": 179.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The Corsair K95 RGB Platinum XT is a premium mechanical gaming keyboard with Cherry MX switches and per-key RGB lighting. With dedicated macro keys and multimedia controls, it's perfect for gamers and content creators."
+    },
+    {
+      "product_name": "Logitech G Pro X Mechanical Gaming Keyboard",
+      "category": "Keyboard",
+      "price": 129.99,
+      "status": "In Stock",
+      "rating": 4.7,
+      "description": "The Logitech G Pro X is a compact and customizable mechanical gaming keyboard designed for eSports professionals. With swappable mechanical switches and programmable lighting, it offers a tailored gaming experience."
+    },
+    {
+      "product_name": "Razer Huntsman Elite Gaming Keyboard",
+      "category": "Keyboard",
+      "price": 199.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "The Razer Huntsman Elite is a premium gaming keyboard with Razer's opto-mechanical switches and a customizable RGB lighting system. With dedicated media keys and a comfortable wrist rest, it's built for gaming comfort."
+    },
+    {
+      "product_name": "Logitech G Pro Wireless Gaming Mouse",
+      "category": "Mouse",
+      "price": 129.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The Logitech G Pro Wireless is a lightweight and high-precision gaming mouse designed for competitive gaming. With a high-performance sensor and up to 16000 DPI, it offers precise tracking and smooth movement."
+    },
+    {
+      "product_name": "Razer DeathAdder V2 Gaming Mouse",
+      "category": "Mouse",
+      "price": 69.99,
+      "status": "In Stock",
+      "rating": 4.7,
+      "description": "The Razer DeathAdder V2 is an ergonomic gaming mouse with a high-precision optical sensor and customizable RGB lighting. With a comfortable grip and responsive buttons, it's a favorite among gamers."
+    },
+    {
+      "product_name": "SteelSeries Rival 600 Gaming Mouse",
+      "category": "Mouse",
+      "price": 79.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "The SteelSeries Rival 600 is a customizable gaming mouse with a dual-sensor system for precise tracking. With a customizable weight system and comfortable design, it's ideal for extended gaming sessions."
+    },
+    {
+      "product_name": "Sony WH-1000XM4 Wireless Noise-Canceling Headphones",
+      "category": "Headphones",
+      "price": 349.99,
+      "status": "In Stock",
+      "rating": 4.9,
+      "description": "The Sony WH-1000XM4 is a top-of-the-line wireless headphone with industry-leading noise cancellation and high-fidelity sound. With long battery life and touch controls, it's perfect for music enthusiasts and travelers."
+    },
+    {
+      "product_name": "Bose QuietComfort 35 II Wireless Headphones",
+      "category": "Headphones",
+      "price": 299.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The Bose QuietComfort 35 II is a premium wireless headphone with excellent noise cancellation and comfortable design. With built-in Alexa and Google Assistant, it offers hands-free voice control."
+    },
+    {
+      "product_name": "Sennheiser HD 660 S Audiophile Headphones",
+      "category": "Headphones",
+      "price": 499.99,
+      "status": "In Stock",
+      "rating": 4.7,
+      "description": "The Sennheiser HD 660 S is a high-end audiophile headphone with open-back design for accurate and natural sound reproduction. With lightweight aluminum voice coils, it delivers exceptional clarity and detail."
+    },
+    {
+      "product_name": "APC Back-UPS Pro 1500VA UPS",
+      "category": "UPS",
+      "price": 199.99,
+      "status": "In Stock",
+      "rating": 4.8,
+      "description": "The APC Back-UPS Pro 1500VA is a reliable UPS that provides battery backup and surge protection for critical electronics. With a capacity of 1500VA, it offers enough power to keep your system running during power outages."
+    },
+    {
+      "product_name": "CyberPower CP1500PFCLCD UPS",
+      "category": "UPS",
+      "price": 184.99,
+      "status": "In Stock",
+      "rating": 4.7,
+      "description": "The CyberPower CP1500PFCLCD is a compact UPS with pure sine wave output and LCD display for real-time information. With a capacity of 1500VA, it's suitable for home office setups and small servers."
+    },
+    {
+      "product_name": "Tripp Lite SMART1500LCDT UPS",
+      "category": "UPS",
+      "price": 189.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "The Tripp Lite SMART1500LCDT is a line-interactive UPS with an LCD display for easy monitoring. With a capacity of 1500VA, it provides reliable battery backup and surge protection for sensitive electronics."
+    }
+  ],
+  "categories": [
+    "processor",
+    "Cooler",
+    "Motherboard",
+    "RAM",
+    "Storage",
+    "Graphics Card (GPU)", (complete)
+    "Power Supply",
+    "Casing",
+    "Monitor",
+    "Keyboard",
+    "Mouse",
+    "Headphone",
+    "UPS"
+  ]
+}

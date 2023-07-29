@@ -1,10 +1,12 @@
+import Header from "@/Components/Header";
+import Loading from "@/Components/ui/Loading";
 import RootLayout from "@/Layout/RootLayout";
 import React from "react";
 
 const HomePage = () => {
   return (
-    <div className="container border border-red-500 mx-auto">
-      <h1>Rajib</h1>
+    <div className="container mx-auto">
+      <Header />
     </div>
   );
 };
