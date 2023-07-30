@@ -25,7 +25,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-slate-500 rounded-box w-[360px] text-white"
             >
               <li>
                 <a>Item 1</a>
@@ -48,7 +48,7 @@ const Navbar = () => {
           </div>
           <Link
             href="/"
-            className="text-xl uppercase sm:text-2xl font-bold bg-gradient-to-t from-purple-700 to-orange-600 text-transparent bg-clip-text"
+            className="text-lg uppercase sm:text-2xl font-bold bg-gradient-to-t from-purple-700 to-orange-600 text-transparent bg-clip-text"
           >
             pc Paradise
           </Link>
