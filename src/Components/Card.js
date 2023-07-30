@@ -33,13 +33,14 @@ const Card = ({ product }) => {
         <div className="card-actions justify-end hover:bg-slate-500">
           <div className="badge badge-outline">{category}</div>
           <div className="badge badge-outline">
-            <img className="w-6 h-6" src={bdTkSign} alt="" /> {price}
+            {/* <img className="w-6 h-6" src={bdTkSign} alt="" />  */}
+            {price}
           </div>
           <div className="badge badge-outline">{rating}</div>
           <div className="badge badge-outline">{status}</div>
         </div>
-        <div className="card-actions justify-end">
-          <button className="btn btn-primary text-white">Buy Now</button>
+        <div className="card-actions justify-end mt-2">
+          <button className="btn btn-primary text-white">Order Now</button>
         </div>
       </div>
     </div>
