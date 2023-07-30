@@ -30,17 +30,26 @@ const Card = ({ product }) => {
             <KeyFeatures feature={feature} />
           ))}
         </div>
-        <div className="card-actions justify-end hover:bg-slate-500">
-          <div className="badge badge-outline">{category}</div>
-          <div className="badge badge-outline">
+        <div className="card-actions justify-end ">
+          <div className="badge badge-outline hover:bg-slate-500 transition delay-75 p-2">
+            {category}
+          </div>
+          <div className="badge badge-outline hover:bg-slate-500 transition delay-75 p-2">
             {/* <img className="w-6 h-6" src={bdTkSign} alt="" />  */}
             {price}
           </div>
-          <div className="badge badge-outline">{rating}</div>
-          <div className="badge badge-outline">{status}</div>
+          <div className="badge badge-outline hover:bg-slate-500 transition delay-75 p-2">
+            {rating}
+          </div>
+          <div className="badge badge-outline hover:bg-slate-500 transition delay-75 p-2">
+            {status}
+          </div>
         </div>
         <div className="card-actions justify-end mt-2">
-          <button className="btn btn-primary text-white">Order Now</button>
+          <button className="btn btn-primary text-white">Details</button>
+          <button className="btn btn-primary text-white hover:bg-slate-500">
+            Order Now
+          </button>
         </div>
       </div>
     </div>

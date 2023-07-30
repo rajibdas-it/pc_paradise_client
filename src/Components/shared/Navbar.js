@@ -77,9 +77,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-gradient-to-t from-purple-600 to-blue-600 outline outline-offset-0 text-white">
+          <Link
+            href="/build_pc"
+            className="btn bg-gradient-to-t from-purple-600 to-blue-600 outline outline-offset-0 text-white"
+          >
             PC Builder
-          </a>
+          </Link>
         </div>
       </div>
     </div>
