@@ -1,10 +1,12 @@
+import Link from "next/link";
 import bdTkSign from "../../public/tk_sign.png";
 import KeyFeatures from "./KeyFeatures";
 
 const Card = ({ product }) => {
-  console.log(product);
+  // console.log(product);
 
   const {
+    id,
     category,
     description,
     image,
@@ -46,7 +48,9 @@ const Card = ({ product }) => {
           </div>
         </div>
         <div className="card-actions justify-end mt-2">
-          <button className="btn btn-primary text-white">Details</button>
+          <Link href={`/product/${id}`}>
+            <button className="btn btn-primary text-white">Details</button>
+          </Link>
           <button className="btn btn-primary text-white hover:bg-slate-500">
             Order Now
           </button>
