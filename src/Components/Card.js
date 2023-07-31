@@ -8,7 +8,7 @@ const Card = ({ product }) => {
   const dispatch = useDispatch();
 
   const {
-    id,
+    _id,
     category,
     description,
     image,
@@ -56,7 +56,7 @@ const Card = ({ product }) => {
           </div>
         </div>
         <div className="card-actions justify-end mt-2">
-          <Link href={`/product/${id}`}>
+          <Link href={`/product/${_id}`}>
             <button className="btn btn-primary text-white">Details</button>
           </Link>
           <button
