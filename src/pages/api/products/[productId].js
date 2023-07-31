@@ -12,14 +12,13 @@ const client = new MongoClient(uri, {
 });
 
 async function run(req, res) {
+  const productId = req.query.productId;
   try {
     await client.connect();
     const productsCollection = client.db("pc_paradise").collection("products");
     if (req.method === "GET") {
-      const productId = req.query.id;
-      console.log(productId);
       console.log(req.params);
-      const product = await productsCollection.fineOne({
+      const product = await productsCollection.findOne({
         _id: new ObjectId(productId),
       });
       res.send({ message: "success", status: 200, data: product });

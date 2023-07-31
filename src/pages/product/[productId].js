@@ -1,10 +1,9 @@
 import RootLayout from "@/Layout/RootLayout";
-import { useRouter } from "next/router";
+
 import React from "react";
 
-const ProductDetails = () => {
-  const router = useRouter();
-  console.log(router.query.productId);
+const ProductDetails = ({ product }) => {
+  console.log(product);
   return (
     <div className="p-5 mx-auto sm:p-10 md:p-16 ">
       <div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded">
@@ -46,4 +45,18 @@ export default ProductDetails;
 
 ProductDetails.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
+};
+
+export const getServerSideProps = async (context) => {
+  const { params } = context;
+  const res = await fetch(
+    `http://localhost:3000/api/products/${params.productId}`
+  );
+  const data = await res.json();
+
+  return {
+    props: {
+      product: data?.data,
+    },
+  };
 };
