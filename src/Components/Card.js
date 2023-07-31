@@ -34,9 +34,11 @@ const Card = ({ product }) => {
           <p className="text-base underline underline-offset-4 text-blue-500/70 font-bold">
             Key Features
           </p>
-          {keyFeatures.map((feature) => (
-            <KeyFeatures feature={feature} />
-          ))}
+          <ul className="list-disc list-inside">
+            {keyFeatures.map((feature, index) => (
+              <KeyFeatures key={index + 1} feature={feature} />
+            ))}
+          </ul>
         </div>
         <div className="card-actions justify-end ">
           <div className="badge badge-outline hover:bg-slate-500 transition delay-75 p-2">
