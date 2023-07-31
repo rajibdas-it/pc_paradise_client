@@ -4,8 +4,9 @@ import Loading from "@/Components/ui/Loading";
 import RootLayout from "@/Layout/RootLayout";
 import React from "react";
 
-const HomePage = ({ products }) => {
-  // console.log(products);
+const HomePage = ({ allProducts }) => {
+  const products = allProducts.slice(0, 10);
+
   return (
     <div className="container mx-auto">
       <Header />
@@ -30,7 +31,7 @@ export const getStaticProps = async () => {
 
   return {
     props: {
-      products: data,
+      allProducts: data,
     },
   };
 };
