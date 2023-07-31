@@ -5,6 +5,10 @@ const ShoppingCart = ({ products }) => {
   console.log(products);
   const total = calculateTotal(products);
 
+  const handleCompleteBuild = () => {
+    console.log("Congratulations! Your pc build successfully");
+  };
+
   return (
     <div className="mt-5 rounded-lg flex flex-col p-6 space-y-4 sm:p-10 bg-gray-600">
       <h2 className="text-xl font-semibold text-center lg:text-4xl">
@@ -81,9 +85,10 @@ const ShoppingCart = ({ products }) => {
       <div className="flex justify-end space-x-4">
         <button
           type="button"
-          className="px-6 py-2 border rounded-md dark:bg-violet-400 dark:text-gray-900 dark:border-violet-400"
+          onClick={handleCompleteBuild}
+          className="px-6 py-2 border rounded-md hover:bg-violet-400 transition text-white border-violet-400"
         >
-          <span className="sr-only sm:not-sr-only">Continue to </span>Checkout
+          Complete Build
         </button>
       </div>
     </div>

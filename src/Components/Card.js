@@ -61,7 +61,7 @@ const Card = ({ product }) => {
             onClick={handleAddProduct}
             className="btn btn-primary text-white hover:bg-slate-500"
           >
-            Order Now
+            Add To Builder
           </button>
         </div>
       </div>

@@ -11,9 +11,12 @@ const PCBuildOptions = ({ categories }) => {
       <div className="p-5">
         <ul className="divide-y divide-gray-600">
           {categories.map((category) => (
-            <li className="flex items-center justify-between p-3">
-              <p>{category}</p>
-              <Link href={`/product?category=${category}`}>
+            <li
+              key={category._id}
+              className="flex items-center justify-between p-3"
+            >
+              <p>{category?.categoryName}</p>
+              <Link href={`/product?category=${category?.categoryName}`}>
                 {" "}
                 <button className="btn btn-sm md:btn-md btn-outline btn-info">
                   Choose

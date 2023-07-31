@@ -321,18 +321,18 @@
     }
   ],
   "categories": [
-    "processor",
-    "Cooler",
-    "Motherboard",
-    "RAM",
-    "Storage",
-    "Graphics Card (GPU) Complete",
-    "Power Supply",
-    "Casing",
-    "Monitor",
-    "Keyboard",
-    "Mouse",
-    "Headphone",
-    "UPS"
+    { "categoryName": "processor" },
+    { "categoryName": "Cooler" },
+    { "categoryName": "Motherboard" },
+    { "categoryName": "RAM" },
+    { "categoryName": "Storage" },
+    { "categoryName": "Graphics Card (GPU) Complete" },
+    { "categoryName": "Power Supply" },
+    { "categoryName": "Casing" },
+    { "categoryName": "Monitor" },
+    { "categoryName": "Keyboard" },
+    { "categoryName": "Mouse" },
+    { "categoryName": "Headphone" },
+    { "categoryName": "UPS" }
   ]
 }

@@ -23,7 +23,7 @@ const ProductHomePage = ({ allProducts }) => {
     <div className="container mx-auto">
       <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 ">
         {products.map((product) => (
-          <Card key={product.id} product={product} />
+          <Card key={product?._id} product={product} />
         ))}
       </div>
     </div>
@@ -37,11 +37,11 @@ ProductHomePage.getLayout = function getLayout(page) {
 };
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:5000/products");
+  const res = await fetch("http://localhost:3000/api/products");
   const data = await res.json();
   return {
     props: {
-      allProducts: data,
+      allProducts: data.data,
     },
   };
 };
