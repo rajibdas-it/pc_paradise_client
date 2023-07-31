@@ -1,7 +1,10 @@
+import { useGetCategoriesQuery } from "@/redux/api/apiSlice";
 import Link from "next/link";
-import React from "react";
+import NavItem from "../NavItem";
 
 const Navbar = () => {
+  const { data } = useGetCategoriesQuery();
+
   return (
     <div className=" bg-primary text-black">
       <div className="navbar container mx-auto">
@@ -34,12 +37,9 @@ const Navbar = () => {
                 <details>
                   <summary>Components</summary>
                   <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
+                    {data?.data.map((item) => (
+                      <NavItem key={item?._id} item={item} />
+                    ))}
                   </ul>
                 </details>
               </li>
@@ -56,20 +56,17 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 ">
             <li>
               <Link href="/">Home</Link>
             </li>
             <li tabIndex={0}>
               <details>
                 <summary>Components</summary>
-                <ul className="p-2 bg-slate-500  z-20">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
+                <ul className="p-2 bg-slate-500 z-20 w-full">
+                  {data?.data.map((item) => (
+                    <NavItem key={item?._id} item={item} />
+                  ))}
                 </ul>
               </details>
             </li>

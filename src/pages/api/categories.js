@@ -14,7 +14,7 @@ const client = new MongoClient(uri, {
 async function run(req, res) {
   try {
     await client.connect();
-    const categoryCollection = await client
+    const categoryCollection = client
       .db("pc_paradise")
       .collection("categories");
     if (req.method === "GET") {
