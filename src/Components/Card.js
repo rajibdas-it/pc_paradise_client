@@ -1,9 +1,11 @@
 import Link from "next/link";
 import bdTkSign from "../../public/tk_sign.png";
 import KeyFeatures from "./KeyFeatures";
+import { useDispatch } from "react-redux";
+import { addToCart } from "@/redux/features/addToCart/cartSlice";
 
 const Card = ({ product }) => {
-  // console.log(product);
+  const dispatch = useDispatch();
 
   const {
     id,
@@ -16,6 +18,10 @@ const Card = ({ product }) => {
     rating,
     status,
   } = product || {};
+  const handleAddProduct = () => {
+    dispatch(addToCart(product));
+    console.log("product added");
+  };
   return (
     <div className="card card-compact w-full bg-base-100 shadow-xl">
       <figure>
@@ -51,7 +57,10 @@ const Card = ({ product }) => {
           <Link href={`/product/${id}`}>
             <button className="btn btn-primary text-white">Details</button>
           </Link>
-          <button className="btn btn-primary text-white hover:bg-slate-500">
+          <button
+            onClick={handleAddProduct}
+            className="btn btn-primary text-white hover:bg-slate-500"
+          >
             Order Now
           </button>
         </div>

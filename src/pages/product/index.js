@@ -21,7 +21,6 @@ const ProductHomePage = ({ allProducts }) => {
 
   return (
     <div className="container mx-auto">
-      <h1 className="text-7xl ">Rajib</h1>
       <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 ">
         {products.map((product) => (
           <Card key={product.id} product={product} />

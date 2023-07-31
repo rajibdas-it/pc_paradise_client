@@ -1,10 +1,15 @@
 import PCBuildOptions from "@/Components/PCBuildOptions";
+import ShoppingCart from "@/Components/ShoppingCart";
 import RootLayout from "@/Layout/RootLayout";
+import { useSelector } from "react-redux";
 
-const PCBuilderHomePage = () => {
+const PCBuilderHomePage = ({ categories }) => {
+  const { products } = useSelector((state) => state.cart);
+
   return (
-    <div className="border border-red-800 container mx-auto">
-      <PCBuildOptions />
+    <div className=" container mx-auto">
+      {products.length > 0 && <ShoppingCart products={products} />}
+      <PCBuildOptions categories={categories} />
     </div>
   );
 };
@@ -13,4 +18,14 @@ export default PCBuilderHomePage;
 
 PCBuilderHomePage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;
+};
+
+export const getServerSideProps = async () => {
+  const res = await fetch("http://localhost:5000/categories");
+  const data = await res.json();
+  return {
+    props: {
+      categories: data,
+    },
+  };
 };
