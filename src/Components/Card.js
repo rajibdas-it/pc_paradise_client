@@ -3,6 +3,7 @@ import bdTkSign from "../../public/tk_sign.png";
 import KeyFeatures from "./KeyFeatures";
 import { useDispatch } from "react-redux";
 import { addToCart } from "@/redux/features/addToCart/cartSlice";
+import { toast } from "react-toastify";
 
 const Card = ({ product }) => {
   const dispatch = useDispatch();
@@ -20,7 +21,7 @@ const Card = ({ product }) => {
   } = product || {};
   const handleAddProduct = () => {
     dispatch(addToCart(product));
-    console.log("product added");
+    toast.success("Components added successfully");
   };
   return (
     <div className="card card-compact w-full bg-base-100 shadow-xl">

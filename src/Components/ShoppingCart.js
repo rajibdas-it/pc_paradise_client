@@ -1,12 +1,12 @@
 import calculateTotal from "@/utils/CalculateTotal";
 import React from "react";
+import { toast } from "react-toastify";
 
 const ShoppingCart = ({ products }) => {
-  console.log(products);
   const total = calculateTotal(products);
 
   const handleCompleteBuild = () => {
-    console.log("Congratulations! Your pc build successfully");
+    toast.success("Congratulations! Your pc build successfully");
   };
 
   return (
