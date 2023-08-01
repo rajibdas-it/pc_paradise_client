@@ -1,9 +1,11 @@
 import { useGetCategoriesQuery } from "@/redux/api/apiSlice";
 import Link from "next/link";
 import NavItem from "../NavItem";
+import { useSession, signOut } from "next-auth/react";
 
 const Navbar = () => {
   const { data } = useGetCategoriesQuery();
+  const { data: session } = useSession();
 
   return (
     <div className=" bg-primary text-black">
@@ -46,6 +48,23 @@ const Navbar = () => {
               <li>
                 <Link href="/product">Products</Link>
               </li>
+              <div className="flex flex-col mt-5">
+                {session ? (
+                  <button
+                    onClick={() => signOut()}
+                    className="btn bg-gradient-to-t from-purple-600 to-blue-600 outline outline-offset-0 text-white"
+                  >
+                    Signout
+                  </button>
+                ) : (
+                  <Link
+                    href="/login"
+                    className="btn bg-gradient-to-t from-purple-600 to-blue-600 outline outline-offset-0 text-white"
+                  >
+                    Login
+                  </Link>
+                )}
+              </div>
             </ul>
           </div>
           <Link
