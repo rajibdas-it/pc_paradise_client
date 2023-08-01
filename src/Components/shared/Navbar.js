@@ -94,13 +94,30 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end space-x-5">
           <Link
             href="/build_pc"
             className="btn bg-gradient-to-t from-purple-600 to-blue-600 outline outline-offset-0 text-white"
           >
             PC Builder
           </Link>
+          <div>
+            {session ? (
+              <button
+                onClick={() => signOut()}
+                className="btn bg-gradient-to-t from-purple-600 to-blue-600 outline outline-offset-0 text-white"
+              >
+                Signout
+              </button>
+            ) : (
+              <Link
+                href="/login"
+                className="btn bg-gradient-to-t from-purple-600 to-blue-600 outline outline-offset-0 text-white"
+              >
+                Login
+              </Link>
+            )}
+          </div>
         </div>
       </div>
     </div>

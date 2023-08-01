@@ -4,10 +4,13 @@ import KeyFeatures from "./KeyFeatures";
 import { useDispatch } from "react-redux";
 import { addToCart } from "@/redux/features/addToCart/cartSlice";
 import { toast } from "react-toastify";
+import { useRouter } from "next/router";
 
 const Card = ({ product }) => {
   const dispatch = useDispatch();
 
+  const router = useRouter();
+  // console.log(router.asPath);
   const {
     _id,
     category,
@@ -22,6 +25,7 @@ const Card = ({ product }) => {
   const handleAddProduct = () => {
     dispatch(addToCart(product));
     toast.success("Components added successfully");
+    router.push("/build_pc");
   };
   return (
     <div className="card card-compact w-full bg-base-100 shadow-xl">

@@ -16,7 +16,10 @@ const ShoppingCart = ({ products }) => {
       </h2>
       <ul className="flex flex-col divide-y divide-gray-700 text-white">
         {products.map((product) => (
-          <li className="flex flex-col py-6 sm:flex-row sm:justify-between">
+          <li
+            key={product._id}
+            className="flex flex-col py-6 sm:flex-row sm:justify-between"
+          >
             <div className="flex w-full space-x-2 sm:space-x-4">
               <img
                 className="flex-shrink-0 object-cover w-20 h-20 dark:border-transparent rounded outline-none sm:w-32 sm:h-32 dark:bg-gray-500"
