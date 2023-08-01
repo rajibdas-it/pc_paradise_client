@@ -62,7 +62,7 @@ ProductDetails.getLayout = function getLayout(page) {
 export const getServerSideProps = async ({ params }) => {
   // const { params } = context;
   const res = await fetch(
-    `http://localhost:3000/api/products/${params.productId}`
+    `https://pcparadise.vercel.app/api/products/${params.productId}`
   );
   const data = await res.json();
 

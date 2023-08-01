@@ -26,7 +26,7 @@ HomePage.getLayout = function getLayout(page) {
 };
 
 export const getServerSideProps = async () => {
-  const res = await fetch("http://localhost:3000/api/products");
+  const res = await fetch("https://pcparadise.vercel.app/api/products");
   const data = await res.json();
   // console.log("from homepage", data);
 

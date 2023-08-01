@@ -8,7 +8,7 @@ yarn dev
 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [https://pcparadise.vercel.app/](https://pcparadise.vercel.app/) with your browser to see the result.
 
 
 ```

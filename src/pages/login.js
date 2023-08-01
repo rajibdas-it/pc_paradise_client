@@ -16,7 +16,7 @@ const LoginPage = () => {
           <button
             onClick={() =>
               signIn("google", {
-                callbackUrl: callbackUrl || "http://localhost:3000",
+                callbackUrl: callbackUrl || "https://pcparadise.vercel.app/",
               })
             }
             aria-label="Login with Google"
