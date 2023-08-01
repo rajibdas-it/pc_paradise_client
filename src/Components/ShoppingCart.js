@@ -84,6 +84,7 @@ const ShoppingCart = ({ products }) => {
       </div>
       <div className="flex justify-end space-x-4">
         <button
+          disabled={products.length < 5}
           type="button"
           onClick={handleCompleteBuild}
           className="px-6 py-2 border rounded-md hover:bg-violet-400 transition text-white border-violet-400"
